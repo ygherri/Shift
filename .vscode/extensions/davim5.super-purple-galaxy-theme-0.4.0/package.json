@@ -1,0 +1,46 @@
+{
+	"name": "super-purple-galaxy-theme",
+	"displayName": "Super Purple Galaxy Theme",
+	"icon": "assets/LogoGalaxy.png",
+	"description": "Awesome dark purple and colorful theme",
+	"version": "0.4.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davim5/purple-galaxy-theme.git"
+	},
+	"maintainers": [
+		"Davi Lima <davim53@hotmail.com>"
+	],
+	"publisher": "davim5",
+	"engines": {
+		"vscode": "^1.69.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Galaxy",
+		"purple",
+		"dark-theme",
+		"color-theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Purple Galaxy Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Purple Galaxy Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "d3384057-5870-4421-a191-b5a9918c34e4",
+		"publisherId": "9586e43d-d903-492b-8164-ab9df6db9bcc",
+		"publisherDisplayName": "davim5",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1698913965742,
+		"preRelease": false
+	}
+}
