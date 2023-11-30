@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lek0gfp.css">
     <title>tailwindscss</title>
 </head>
-<body class="bg-white-400">
+<body class="bg-white">
 
     <nav class="bg-white-400 p-4 text-black flex items-center">
         <div>
@@ -19,60 +20,60 @@
             <div class="h-10 bg-white"></div>
             <a href="#">Contact</a>
             <div class="h-10 bg-white"></div>
-            <a href="#" class=" bg-green-400 ml-4 rounded-md font-semibold " >Découvrir le jeu</a>
-        </div>
+            <a href="#" class="p-2 bg-green-400 ml-2 rounded-md font-semibold">Découvrir le jeu</a>
+            </div>
     </nav>
     
-    <div class="relative h-screen flex items-center bg-cover bg-center rounded-md shadow-lg" style="background-image: url('images/fond_en_tete.png'); background-size: 94% 65%; background-repeat: no-repeat;">
-        <div class="container mx-auto p-8 text-center whitespace-pre-line relative">
-            <div class="absolute left-2/4 top-1/4 h-full w-1/2 bg-cover bg-center" style="background-image: url('images/Robot.svg');background-size: 75% 75%;background-repeat: no-repeat;"></div>
-            <div class="flex flex-col items-start justify-center h-full ml-8"> 
-                <h1 class="text-5xl font-bold text-black mb-4">Plus que des Digital Natives*</h1> 
-                <h1 class="text-5xl font-bold text-black mb-4">Des ia Natives</h1> 
-                <p class="text-black mb-8">Decrypte les enjeux lies à la présence de l'ia dans ta vie <br>quotidienne. Prêt à tout comprendre ?</p> 
-                <p class="text-black mb-8  bg-green-400 ml-4 rounded-md font-semibold">Scroll pour découvrir</p>
+    <div class="relative mx-auto flex items-center bg-center rounded-3xl shadow-lg  w-11/12" style="background-image: url('images/fond_en_tete.png'); background-size: cover; background-repeat: no-repeat;min-height: 600px; margin-top: 40px;margin-bottom: 25px;">
+        <div class="container mx-auto p-4 text-center whitespace-pre-line relative mt-0 ">
+            <div class="absolute left-3/4 top-3/4 transform -translate-x-1/2 -translate-y-1/2 h-full w-1/2 bg-cover bg-center" style="background-image: url('images/Robot.svg'); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+            <div class="flex flex-col items-start justify-center h-full ml-12"> 
+                <h1 class="text-5xl font-bold text-black mb-6 ml-15 "><b>Plus que des Digital Natives*</h1></b>
+                <h1 class="text-5xl font-bold text-black mb-6 ml-15"><b>Des IA Natives.</h1></b>
+                <p class="text-black mb-0 ml-15">Décrypte les enjeux liés à la présence de l'IA dans ta vie</p>
+                <p class="text-black mb-8 ml-15">quotidienne. Prêt à tout comprendre ?</p>
+                <button class="text-black bg-green-400 ml-15 mb-4 rounded-md font-semibold p-4 py-1.5 flex items-center"> 
+                    <img src="images/souris.png" alt="Icône Souris" class="w-5 h-5 mr-2" />
+                    <span class="h-5">Scroll pour découvrir</span>
+                </button>
             </div>
         </div>
     </div>
     
-    <div class="grid grid-cols-3 gap-4 bg-white-400 p-8 text-center">
-        <!-- Contenu 1 -->
-        <div class="bg-green-400 font-gibson p-4 rounded-md mb-4 w-full h-64 flex items-start">
-            <div class="w-1/2 mr-auto order-2" style="background-image: url('images/Bras_téléphone.svg'); background-size: contain; background-repeat: no-repeat; background-position: right; min-height: 100%;"></div>
+    
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 bg-white p-8 text-center">    
+        <div class="bg-green-400 font-gibson p-4 rounded-md mb-4 w-[400px] h-[300px]  flex items-start"">
+            <div class="w-4/5 mr-auto order-2" style="background-image: url('images/Bras_téléphone.svg'); background-size: 80% 80%; background-repeat: no-repeat; background-position: right; min-height: 120%;min-width: 50%;"></div>
             <div class="w-1/2 order-1 text-left">
-                <h2 class="text-3xl md:text-7xl text-black font-bold mb-2 mt-2">77% </h2>
-                <p class="text-black text-lg mt-2">des appareils intègrent une IA </p>
+                <h2 class="text-3xl md:text-6xl text-black font-bold mb-2 mt-2">77% </h2>
+                <p class="text-black font-canada-type-gibson-semibold  text-2xl text-lg mt-2"><b>des appareils intègrent une IA </b></p>
             </div>
         </div>
     
-        <!-- Contenu 2 -->
+        
         <div class="col-span-1">
-            <div class="bg-blue-400 font-gibson p-4 rounded-md mb-4 w-full h-64 flex flex-col items-center">
+            <div class="bg-blue-400 font-gibson p-4 rounded-md mb-4 w-[400px] h-[300px] flex flex-col items-center">
                 <div class="text-center mb-2">
-                    <h2 class="text-3xl md:text-7xl text-white font-bold mb-1">72% </h2>
-                    <p class="text-white text-base mb-2">étudiants qui utilisent ChatGPT</p>
+                    <h2 class="text-3xl md:text-6xl text-white font-bold mb-1">72% </h2>
+                    <p class="text-white font-canada-type-gibson-semibold  text-2xl text-base mb-2"> <b>Des étudiants qui utilisent ChatGPT</b></p>
                 </div>
                 <div class="w-full h-56" style="background-image: url('images/Groupe_d_enfants.svg'); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
             </div>
         </div>
     
-        <!-- Contenu 3 -->
+        
         <div class="col-span-1">
-            <div class="bg-custom-color font-gibson p-4 rounded-md mb-4 w-full h-64 flex items-center relative">
+            <div class="bg-custom-color font-gibson p-4 rounded-md mb-4 w-[400px] h-[300px] flex items-center relative">
                 <div class="w-1/2">
-                    <h2 class="text-3xl md:text-7xl text-white font-bold mb-2">1/4</h2>
-                    <p class="text-white text-lg">Des Français maîtrisent</br>notions d'IA</p>
+                    <h2 class="text-3xl md:text-6xl text-white font-bold mb-2 mt-4">1/4</h2>
+                    <p class="text-white  font-canada-type-gibson-semibold  text-2xl text-lg"><b>Des Français maîtrisent</br>la notions d'IA</b></p>
                 </div>
                 <div class="absolute right-0 top-0 bottom-0" style="background-image: url('images/France_Graphe.svg'); background-size: 75% 75%; background-repeat: no-repeat; background-position: right center; width: 50%;"></div>
             </div>
         </div>
     </div>
-    
-    
-    
-    
-    
-    
+
     
 </body>
 </html>
